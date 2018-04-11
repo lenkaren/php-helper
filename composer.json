@@ -1,0 +1,23 @@
+{
+    "name": "lenkaren/php-helper",
+    "description": "Some helpful function.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aren",
+            "email": "lenk.legend@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lenkaren\\PHPHelper\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
